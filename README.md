@@ -34,10 +34,11 @@ Add this to your tennu configuration (be sure to strip comments):
 ```
 
 ### Current/Future plugins that require dbcore
-- [dblogger](https://github.com/LordWingZero/tennu-dblogger)
-- tell (coming soon)
-- reponse (coming soon)
-- title (coming soon)
+- [tennu-dblogger](https://github.com/LordWingZero/tennu-dblogger)
+- tennu-advanced-seen (comming soon)
+- tennu-title (comming soon)
+- tennu-tell (comming soon)
+- tennu-response (comming soon)
 
 
 ### Installing Into Tennu
