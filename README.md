@@ -2,8 +2,6 @@
 
 A plugin for the [tennu](https://github.com/Tennu/tennu) irc framework.
 
-Required by my other database dirven tennu plugins.
-
 tennu-dbcore uses [knex](http://knexjs.org/) on its backend. This means that if you wish to change from the default Sqlite3 DB you will have to follow their documentation and update the configuration below. I have provided a couple of examples.
 
 ### Configuration

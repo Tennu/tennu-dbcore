@@ -2,7 +2,7 @@
   "name": "tennu-dbcore",
   "version": "1.0.1",
   "description": "A plugin for the tennu IRC framework, required by my other db driven plugins.",
-  "main": "index.js",
+  "main": "plugin.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/LordWingZero/tennu-dbcore"
