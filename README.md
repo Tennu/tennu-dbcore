@@ -1,4 +1,4 @@
-# tennu-dbcore 1.0.0
+# tennu-dbcore
 
 A plugin for the [tennu](https://github.com/Tennu/tennu) irc framework.
 
@@ -33,8 +33,9 @@ Add this to your tennu configuration (be sure to strip comments):
 
 ### Current/Future plugins that require dbcore
 - [tennu-dblogger](https://github.com/LordWingZero/tennu-dblogger)
-- tennu-advanced-seen (comming soon)
-- tennu-title (comming soon)
+- [tennu-advanced-seen](https://github.com/LordWingZero/tennu-aseen)
+- [tennu-title](https://github.com/LordWingZero/tennu-title)
+- [tennu-correction](https://github.com/LordWingZero/tennu-correction)
 - tennu-tell (comming soon)
 - tennu-response (comming soon)
 
@@ -46,19 +47,3 @@ See Downloadable Plugins [here](https://tennu.github.io/plugins/).
 ### Todo:
 
 - Tests
- 
-### License
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
-
- Copyright (C) 2015 Victorio Berra
-
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document, and changing it is allowed as long
- as the name is changed.
-
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
-
-  0. You just DO WHAT THE FUCK YOU WANT TO.
