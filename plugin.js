@@ -1,6 +1,7 @@
-var Promise = require('bluebird'),
-    path = require('path'),
-    format = require('util').format;
+var Promise = require('bluebird');
+var path = require('path');
+var format = require('util').format;
+var knex = require('knex');
 
 // Get the path of the module so we can access its assets
 const moduleHomeDir = __dirname;
@@ -10,10 +11,10 @@ var dbCore = {
     role: 'dbcore',
     init: function(client, imports) {
 
-        var knex = require('knex')(client.config('database'));
+        var configuredKnex = knex(client.config('database'));
 
         return {
-            exports: require('./knex-context')(knex, migrationPath, client)
+            exports: require('./knex-context')(configuredKnex, migrationPath, client)
         };
     }
 };
