@@ -1,5 +1,5 @@
 exports.up = function(knex, Promise) {
-    return knex.schema.createTable("tell", function(table) {
+    return knex.schema.createTableIfNotExists("tell", function(table) {
         table.increments("ID").primary();
         table.string("FromNick").notNullable();
         table.string("ToNick").notNullable();

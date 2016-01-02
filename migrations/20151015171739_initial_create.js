@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
         table.string("Channel", 200);
         table.timestamp("Timestamp");
     }).then(function() {
-        return knex.schema.createTable("topic", function(table) {
+        return knex.schema.createTableIfNotExists("topic", function(table) {
             table.increments("ID").primary();
             table.string("Content").notNullable();
             table.string("SetByNick").notNullable();
