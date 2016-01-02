@@ -10,7 +10,7 @@ exports.up = function(knex, Promise) {
             table.increments("id").primary();
             table.string("trigger").notNullable();
             table.decimal('chance').notNullable();
-            table.integer("response_id").unsigned().notNullable().references("id").inTable("respond");
+            table.integer("response_id").unsigned().notNullable().references("ID").inTable("response");
             table.string("created_by").notNullable();
             table.timestamps();
         });
