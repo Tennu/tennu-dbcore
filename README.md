@@ -4,6 +4,9 @@ A plugin for the [tennu](https://github.com/Tennu/tennu) irc framework.
 
 tennu-dbcore uses [knex](http://knexjs.org/) on its backend. This means that if you wish to change from the default Sqlite3 DB you will have to follow their documentation and update the configuration below. I have provided a couple of examples.
 
+## Upgrade Errors
+If you get an error about missing database columns after you upgrade, update the knexfile.js here with your own data, and run a [migration](http://knexjs.org/#Migrations-CLI).
+
 ### Configuration
 
 Add this to your tennu configuration (be sure to strip comments):
