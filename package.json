@@ -1,6 +1,6 @@
 {
   "name": "tennu-dbcore",
-  "version": "2.0.0",
+  "version": "3.0.0",
   "description": "A plugin for the tennu IRC framework, required by my other db driven plugins.",
   "main": "plugin.js",
   "repository": {
